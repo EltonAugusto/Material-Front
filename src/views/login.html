@@ -1,0 +1,15 @@
+<div class="col-md-6 col-md-offset-3 text-center">
+    <h1>Material - Lista de Produtos</h1>
+    <h3>Autenticação via Token utilizando OAuth & Owin</h2>
+	<h4>{{controller.token}}</h4>
+	<div class="panel panel-default">
+	   <div class="panel-heading">Autentique-se</div>
+	 <div class="panel-body">
+			<button class="btn btn-primary btn-lg" ng-click="controller.logar()">Obter Token</button>
+			<br>
+			<br>
+            <button class="btn btn-primary btn-md" ng-click="controller.obterProdutos()">Obter Produtos WebAPI</button>
+			<button class="btn btn-primary btn-md" ng-click="controller.obterProdutosAjax()">Obter Produtos MVC</button>
+        </div>
+	</div>
+</div>
